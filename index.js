@@ -14,7 +14,7 @@ app.listen(PORT, () => {
 })
 
 app.get('/', (req, res) => {
-  res.json({ items: response })
+  res.json({ items: items })
 })
 
 app.get('/about', (req, res) => {
